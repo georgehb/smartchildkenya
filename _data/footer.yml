@@ -1,0 +1,6 @@
+- name: Home
+  link: /
+- name: About
+  link: /about.html
+- name: Privacy Policy
+  link: /privacy-policy.html

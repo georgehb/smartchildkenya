@@ -1,0 +1,23 @@
+<footer class="footer mt-auto py-4 bg-light">
+    <div class="container text-center">
+        <div class="social-links d-flex justify-content-center gap-3 pb-2">
+            <a target="_blank" href="https://m.facebook.com/Smart-child-kenya-877509895614075/"><img
+                    src="/assets/images/facebook-logo.svg"></a>
+            <a target="_blank" href="https://www.youtube.com/watch?v=VgivVAYRGLo"><img
+                    src="/assets/images/youtube-logo.svg"></a>
+        </div>
+        <ul class="nav justify-content-center">
+            {% for item in site.data.footer %}
+            <li class="nav-item">
+                <a class="nav-link link-primary" href="{{ item.link }}">{{
+                    item.name }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+        <span class="text-muted">Copyright &copy;
+            <script type="text/javascript">
+                document.write(new Date().getFullYear());
+            </script> Smart Child Kenya
+        </span>
+    </div>
+</footer>

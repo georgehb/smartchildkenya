@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+  font-family: "Roboto Condensed", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.navbar.bg-primary,
+section.bg-primary {
+  background-color: #ce4a4a !important;
+  color: #fff !important;
+}
+
+.btn.btn-primary {
+  background-color: #ce4a4a !important;
+  border-color: #ce4a4a !important;
+  color: #fff !important;
+}
+
+.btn.btn-outline-primary {
+  border-color: #ce4a4a !important;
+  color: #ce4a4a !important;
+}
+
+.btn.btn-outline-primary:hover {
+  background-color: #ce4a4a !important;
+  color: #fff !important;
+}
+
+.link-primary {
+  color: #ce4a4a !important;
+}
+
+.text-primary {
+  color: #ce4a4a !important;
+}
+
+section {
+  padding: 2.25rem 1.25rem;
+}
+
+.social-links img {
+  width: 30px;
+}
+
+.hidden {
+  display: none;
+}
+
+#rc-imageselect, .g-recaptcha {
+  transform: scale(0.8);
+  -webkit-transform: scale(0.8);
+  transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+}
+
+@media screen and (min-width: 576px) {
+  #rc-imageselect, .g-recaptcha {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
